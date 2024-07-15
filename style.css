@@ -68,7 +68,7 @@
 
 .btn {
     /* Frame 1 */
-    position: relative;
+    /* position: relative; */
     width: 177px;
     height: 64px;
     /* Auto layout */
@@ -90,40 +90,40 @@
 /*  feture Img gallary section */
 
 
-.feature-section{
+.feature-section {
     margin-top: 100px;
     text-align: center;
 
 }
 
-.section-headding{
+.section-headding {
     text-align: center;
 }
 
-.section-title{
+.section-title {
     margin-bottom: 10px;
     color: rgb(39, 39, 39);
-font-family: Lato;
-font-size: 40px;
-font-weight: 800;
-line-height: 48px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
-.section-des{
+.section-des {
     width: 50%;
     margin: 0px auto;
     color: rgba(39, 39, 39, 0.6);
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-letter-spacing: 0%;
-text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
-.gallary{
+.gallary {
     text-align: center;
     width: 90%;
     margin: 30px auto;
@@ -131,11 +131,13 @@ text-align: center;
     justify-content: space-around;
 
 }
-.gallary-cell{
+
+.gallary-cell {
     width: 30%;
     /* border: 12px solid green; */
 }
-.img-box{
+
+.img-box {
     display: flex;
     justify-content: center;
     align-items: end;
@@ -144,35 +146,40 @@ text-align: center;
     width: 100%;
     border-radius: 300px 300px 0px 0px;
 
-background: rgba(167, 33, 98, 0.15);
+    background: rgba(167, 33, 98, 0.15);
 }
-.two{
-   background: rgba(5, 151, 160, 0.15);
+
+.two {
+    background: rgba(5, 151, 160, 0.15);
 }
-.three{
+
+.three {
     background: rgba(71, 125, 17, 0.15);
 }
-.img img{
+
+.img img {
     width: 90%;
 }
-.link{
+
+.link {
     text-align: center;
     margin-top: 30px;
 }
-.link a{
+
+.link a {
     text-decoration: none;
     color: rgb(39, 39, 39);
-font-family: Lato;
-font-size: 24px;
-font-weight: 700;
-line-height: 35px;
-letter-spacing: 0%;
-text-align: center;
-text-decoration-line: underline;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration-line: underline;
     /* color: black; */
 }
 
-.feature-container{
+.feature-container {
     width: 90%;
     height: 320px;
     margin: 150px auto;
@@ -182,17 +189,98 @@ text-decoration-line: underline;
     border-radius: 8px;
     /* gap: 0px; */
 
-background: rgba(39, 39, 39, 0.05);
+    background: rgba(39, 39, 39, 0.05);
 }
 
-.feature-box p{
+.feature-box p {
     color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* Offer Section */
+
+#offer-section {
+    border-radius: 8px;
+
+    background: rgba(229, 84, 115, 0.05);
+    
+}
+.offer-box{
+    width: 80%;
+    margin: 0px auto;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.offer-contant{
+    width: 50%;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.offer-title{
+    font-family: Lato;
+font-size: 30px;
+font-weight: 800;
+line-height: 48px;
+color: rgb(39, 39, 39);
+margin-bottom: 20px;
+}
+.offer-title span{
+    color: rgb(229, 84, 115);
+}
+.offer-des{
+    color: rgba(39, 39, 39, 0.6);
 font-family: Lato;
-font-size: 24px;
-font-weight: 600;
-line-height: 35px;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 letter-spacing: 0%;
 text-align: center;
-margin-top: 10px;
 }
-    
+.offer-contant div {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.offer-img{
+    width: 50%;
+    border: 2px solid red;
+    text-align: center;
+}
+.offer-img img{
+    width: 50%;
+}
+
+/* instagram-section */
+
+#instagram-section{
+    margin-top: 70px;
+}
+.insta-gallary{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 15px;
+    border: 2px solid red;
+
+}
+.insta-gallary div{
+    /* width: 30%; */
+    text-align: center;
+}
+.insta-gallary div img{
+    width: 100%;
+}
