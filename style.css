@@ -208,6 +208,7 @@
 
 #offer-section {
     border-radius: 8px;
+    padding: 50px;
 
     background: rgba(229, 84, 115, 0.05);
     
@@ -355,4 +356,58 @@ font-weight: 700;
 line-height: 24px;
 letter-spacing: 0%;
 
+}
+
+/* Footer section */
+
+footer{
+    height: 300px;
+    background: rgb(17, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-contant{
+    text-align: center;
+}
+.footer-contant h2{
+    margin-bottom: 10px;
+    font-family: Lato;
+font-size: 48px;
+font-weight: 800;
+line-height: 58px;
+letter-spacing: 0%;
+color: rgb(229, 84, 115)
+
+
+}
+.footer-contant h2 span{
+    color: rgb(255, 255, 255);;
+}
+
+.footer-contant p{
+    width: 70%;
+    margin: 0px auto;
+    color: rgba(255, 255, 255, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.footer-contant div small{
+    /* margin-top: 18px; */
+    color: rgba(255, 255, 255, 0.4);
+font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
+.coppy-right{
+    /* border: 2px solid rebeccapurple; */
+    margin-top: 20px;
 }
