@@ -171,4 +171,28 @@ text-align: center;
 text-decoration-line: underline;
     /* color: black; */
 }
+
+.feature-container{
+    width: 90%;
+    height: 320px;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    /* gap: 0px; */
+
+background: rgba(39, 39, 39, 0.05);
+}
+
+.feature-box p{
+    color: rgba(39, 39, 39, 0.8);
+font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 10px;
+}
     
